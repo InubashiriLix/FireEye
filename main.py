@@ -49,7 +49,7 @@ class ConfigManager(QWidget):
         self.outputPath = pa(os.path.join(os.getcwd(), 'output'))
         self.alertAfterComplete = True
 
-        self.ModelPath = pa(os.path.join(os.getcwd(), 'model/yolo8n.pt'))
+        self.ModelPath = pa(os.path.join(os.getcwd(), 'model/best.pt'))
         self.confidence = '0.5'
 
         # check if the config file and folder exist
@@ -386,6 +386,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     self.yoloProcessVideo(path)
                 else:
                     self.yoloProcessImage(path)
+
+            for item in self.sourceList:
+                if item['status'] == 'Detecting':
+                    item['status'] = 'Completed'
 
             self.model.updateSourceList(self.sourceList)
 
