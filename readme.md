@@ -4,6 +4,7 @@ It is developed based on PySide6\
 With the help of YOLOv8 and PySide6, it is more convenient to use, improve and develop.\
 all you need to do is to Config the path of __output folder__, and the __output path__, then __select__ the file you want to detect 
 then turn to the detect tab then __click__ the __detect button__.
+![img1](assets/result.png)
 
 ### Requirements
 
