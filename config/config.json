@@ -1,0 +1,10 @@
+{
+    "common": {
+        "OutputPath": "E:/0-00 PythonProject/FireEye/output",
+        "alertAfterComplete": true
+    },
+    "Model": {
+        "ModelPath": "E:/0-00 PythonProject/FireEye/model/best.pt",
+        "confidence": 0.5
+    }
+}
