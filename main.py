@@ -10,7 +10,6 @@
 # TODO: STREAM SUPPORT BY CV
 # TODO: LOGGING TO DO
 # TODO: CONTEXT ACTIONS
-# TODO: HELP PAGE
 # TODO: MENU PAGES: about, help, github page
 
 import os

@@ -20,3 +20,9 @@ then turn to the detect tab then __click__ the __detect button__.
 5. ![img1](assets/img3.png)
 6. ![img1](assets/img4.png)
 7. ![img1](assets/img5.png)
+
+## TODO LIST
+1. update support for stream including webcam
+2. update logging system 
+3. update context actions 
+4. update about, help, error report, and license
